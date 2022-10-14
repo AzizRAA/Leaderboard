@@ -1,11 +1,11 @@
 * {
-padding: 0;
-list-style: none;
-margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: 0;
 }
 
 body {
-padding: 3rem;
+  padding: 3rem;
 }
 
 #recent-scores {
@@ -36,7 +36,7 @@ padding: 3rem;
 }
 
 #add-scores {
-float: right;
+  float: right;
   padding: 3rem;
   width: 40%;
 }
@@ -54,6 +54,6 @@ float: right;
   box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-footer{
-    margin-top: 1rem;
+footer {
+  margin-top: 1rem;
 }
