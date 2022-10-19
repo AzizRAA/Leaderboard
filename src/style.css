@@ -17,13 +17,22 @@ body {
 .recent-scores-refresh-btn {
   float: right;
   width: 25%;
-  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+  padding: 4px 10px;
+}
+
+.recent-scores-refresh-btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
 .scores-container {
   width: 100%;
   border: 1px solid black;
   margin-top: 2rem;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .scores-container li {
@@ -51,9 +60,29 @@ body {
 .submit-scores-btn {
   align-self: end;
   width: 25%;
-  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+  padding: 4px 10px;
+}
+
+.submit-scores-btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
 footer {
   margin-top: 1rem;
+}
+
+input {
+  border: 1px solid black;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 4px 10px;
+}
+
+h1,
+h2 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(104, 104, 104, 0.3) 0 18px 36px -18px inset;
+  text-shadow: 2px 2px 5px rgb(125, 125, 125);
 }
